@@ -43,16 +43,22 @@ Returns a list of all registered users from the JSON file.
 
 ````bash
     npm install
+```
 
 4. Create a db directory and a users.json file for storing user data:
 ```bash
     mkdir db
+
+```bash
     echo "[]" > db/users.json
+```
     Running the Server
     To start the server, run:
 
+
 ```bash
     npm start
+```
     The server will be available at http://localhost:3000.
 
 ## Dependencies
