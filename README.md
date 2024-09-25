@@ -41,14 +41,14 @@ Returns a list of all registered users from the JSON file.
 
 3. Install the dependencies:
 
-````bash
+```bash
     npm install
 ```
 
 4. Create a db directory and a users.json file for storing user data:
 ```bash
     mkdir db
-
+```
 ```bash
     echo "[]" > db/users.json
 ```
